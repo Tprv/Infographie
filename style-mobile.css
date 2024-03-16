@@ -22,7 +22,7 @@ header{
     position: relative;
     width: 100%;
     height: 100vh;
-    background-image: url(images/background-ff-accueil.png);
+    background-image: url(images/background-ff-accueil.webp);
     background-size: cover;
     background-position: center;
 
@@ -50,33 +50,6 @@ header{
     background-color: #ffff;
 
 }
-.text-scroll-card{
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  -webkit-text-stroke: 1px #ffffff; /* Pour les navigateurs WebKit (Safari, Chrome) */
-    text-stroke: 1px #ffffff; /* Pour les autres navigateurs */
-  font-family: 'Didact Gothic';
-  font-size: 2em;
-  font-weight: 700;
-  color: #ffffff00;
-   animation: cote 1s ease-in-out infinite alternate;
-   width: 100%;
-}
-.text-scroll-card span{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-}
-@keyframes cote {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(20px);
-  }
-}
 @keyframes descend {
   0% {
     transform: translateY(0);
@@ -84,22 +57,6 @@ header{
   100% {
     transform: translateY(10px);
   }
-}
-.second-bloc{
-    position: relative;
-    width: 100%;
-    background: url(images/castle.webp);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.second-bloc::before{
-    content: "";
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
 }
 .bloc-developement::before{
   content: "";
@@ -546,7 +503,7 @@ header{
     justify-content: space-between;
     width: 100%;
     height: 100vh;
-    background-image: url(images/castle.webp);
+    background-image: url(images/castle1.webp);
     background-size: cover;
     background-position: center;
 }
@@ -647,7 +604,7 @@ header{
   width: 45px;
 }
 .character-ff16 img{
-  width: 15px;
+  width: 180px;
 }
 .chocobo-run{
   position: relative;
@@ -687,7 +644,7 @@ header{
     position: relative;
     display: flex;
     flex-direction: column;
-    background: url(images/FF16-walpaper.webp);
+    background: url(images/FF16-walpaper1.webp);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -759,17 +716,17 @@ header{
     transform: rotateY(180deg);
   }
   .swiper-slide:nth-child(1){
-    background: url(images/warrior-of-light.webp);
+    background: url(images/warrior-of-light1.webp);
     background-position: 65%;
     background-size: cover;
   }
   .swiper-slide:nth-child(2){
-    background: url(images/firion.webp);
+    background: url(images/firion1.webp);
     background-position: center;
     background-size: cover;
   }
   .swiper-slide:nth-child(3){
-    background: url(images/onion-knight.webp);
+    background: url(images/onion-knight1.webp);
     background-position: 25%;
     background-size: cover;
   }
@@ -779,7 +736,7 @@ header{
     background-size: cover;
   }
   .swiper-slide:nth-child(5){
-    background: url(images/bartz-klauser.webp);
+    background: url(images/bartz-klauser1.webp);
     background-position: center;
     background-size: cover;
   }
@@ -789,7 +746,7 @@ header{
     background-size: cover;
   }
   .swiper-slide:nth-child(7){
-    background: url(images/cloud.webp);
+    background: url(images/cloud1.webp);
     background-position: center;
     background-size: cover;
   }
@@ -799,7 +756,7 @@ header{
     background-size: cover;
   }
   .swiper-slide:nth-child(9){
-    background: url(images/zidane-tribal.webp);
+    background: url(images/zidane-tribal1.webp);
     background-position: center;
     background-size: cover;
   }
@@ -809,17 +766,17 @@ header{
     background-size: cover;
   }
   .swiper-slide:nth-child(11){
-    background: url(images/YUNA.webp);
+    background: url(images/yuna1.webp);
     background-position: 65%;
     background-size: cover;
   }
   .swiper-slide:nth-child(12){
-    background: url(images/vaan.webp);
+    background: url(images/vaan1.webp);
     background-position: center;
     background-size: cover;
   }
   .swiper-slide:nth-child(13){
-    background: url(images/lightning.webp);
+    background: url(images/lightning1.webp);
     background-position: center;
     background-size: cover;
   }
@@ -834,7 +791,7 @@ header{
     background-size: cover;
   }
   .swiper-slide:nth-child(16){
-    background: url(images/clive.webp);
+    background: url(images/clive1.webp);
     background-position: center;
     background-size: cover;
   }
@@ -965,7 +922,7 @@ header{
     position: relative;
     width: 100%;
     height: 100vh;
-    background: url(images/duel-ff7.webp);
+    background: url(images/duel-ff71.webp);
     background-size: cover;
     background-position: center;
   }
@@ -1211,7 +1168,6 @@ header{
     right: -120%;
     background: linear-gradient(to right, #ca7530, #DBBF40);
     border: 4px solid #ffffffb1;
-    backdrop-filter: blur(5px);
     transition: 0.3s;
   }
   .total-hd-remaster::before{
@@ -1240,7 +1196,6 @@ header{
     right: -120%;
     background: linear-gradient(to bottom, #00029B, #00003B);
     border: 4px solid #b7b7b7;
-    backdrop-filter: blur(3px);
     border-radius: 5px;
     transition: 0.3s;
   }
@@ -1255,7 +1210,6 @@ header{
     bottom: 0;
     right: -120%;
     background: linear-gradient(to bottom, #6F1917, #1d0202);
-    backdrop-filter: blur(3px);
     border: 4px solid rgba(0, 0, 0, 0.904);
     border-radius: 5px;
     transition: 0.3s;
@@ -1322,7 +1276,7 @@ header{
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: url(images/ff-gold-saucer.webp);
+    background: url(images/ff-gold-saucer1.webp);
     background-size: cover;
   }
   .games-revenues .revenues-title{
